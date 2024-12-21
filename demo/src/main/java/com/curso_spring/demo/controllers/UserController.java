@@ -9,7 +9,7 @@ import com.curso_spring.demo.entities.User;
 
 @RestController
 @RequestMapping("/users")
-public class UserResource {
+public class UserController {
     
 
     @GetMapping("/")
